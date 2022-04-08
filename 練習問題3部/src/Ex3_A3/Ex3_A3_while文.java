@@ -6,8 +6,8 @@ public class Ex3_A3_while文 {
 		int sum = 0;
 		while (i <= 10) {
 			System.out.println(i);
-			i++;
 		sum += i;
+		i++;
 			System.out.println("合計" + sum);
 		}
 		System.out.println("1から10までの合計は" + sum + "です。");
