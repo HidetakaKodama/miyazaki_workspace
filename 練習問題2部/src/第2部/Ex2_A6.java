@@ -10,7 +10,7 @@ public class Ex2_A6 {
 		int num2 = s.nextInt();
 		System.out.println(num2);
 		
-		if (num1 == 1 && (num2 == 3)) {
+		if (num1 == 1 && num2 == 3) {
 			System.out.println("チケットは1000円です。");
 		} else if (num1 == 1 || num2 == 3) {
 			System.out.println("チケットは1600円です。");

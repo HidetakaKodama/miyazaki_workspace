@@ -4,8 +4,8 @@ public class Ex3_A1_doWhile文 {
 	public static void main(String[] args) {
 		int i = 0;
 		do {
-			System.out.println(i);
+			System.out.println(i * 3);
 			i++;
-		} while (i < 5);
+		} while (i <= 5);
 	}
 }
