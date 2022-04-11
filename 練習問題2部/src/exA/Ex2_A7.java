@@ -1,0 +1,23 @@
+package exA;
+
+import java.util.Scanner;
+
+public class Ex2_A7 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int num = s.nextInt();
+		System.out.println(num);
+		
+		switch (num) {
+			case 1:
+				System.out.println("赤");
+				break;
+			case 2:
+				System.out.println("黄");
+				break;
+			case 3:
+				System.out.println("青");
+				break;
+		}
+	}
+}
