@@ -1,16 +1,23 @@
 package exA;
 
+// 1～引数までの和を戻り値とするメソッドを
+// 利用したプログラム
+
 public class Ex6_A5 {
 	public static void main(String[] args) {
 		int num = 10;
-		int sum = sum(num);
-		System.out.println("1から" + num + "までの和は" + sum + "です");
+		int result = sum(num);
+		
+		System.out.println("1から" + num + "までの和は" + result + "です");
 	}
 	public static int sum(int num) {
-		for (int i = 1; 0 == num; i--) {
-			int sum = num + i;
-		int result = sum;
-		return result;
+		int sum = 0;
+		for (int i = 1 ;i <= num; i++) {
+			sum += i;
+			if (num < 0) {
+				sum = 0;
+			}
 		}
+		return sum;
 	}
 }

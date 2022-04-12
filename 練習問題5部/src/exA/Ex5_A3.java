@@ -9,8 +9,8 @@ public class Ex5_A3 {
 		
 		for(int i = 1; i < scores.length; i++) {
 			if(max < scores[i]) {
-				max = scores[i] ;
-				System.out.println("全要素の最大値は" + scores[i]);
+				max = scores[i];
+				System.out.println("全要素の最大値は" + max + "です");
 			}
 		}
 	}

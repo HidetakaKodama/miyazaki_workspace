@@ -14,7 +14,8 @@ public class Ex4_B3 {
 		
 		for(int i = 1; i <= num1; i++) {
 			if (num1 % i == 0 && num2 % i == 0) {
-				System.out.println();
+				
+				System.out.println("二つの数字の最大公約数は" + i + "です");
 			if (i == num1 || i == num2) {
 				System.out.println("二つの数字の最大公約数は" + i + "です");
 				break;
