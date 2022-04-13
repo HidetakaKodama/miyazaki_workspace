@@ -12,15 +12,16 @@ public class Ex4_B3 {
 		Scanner s2 = new Scanner(System.in);
 		int num2 = s2.nextInt();
 		
+		int max = 0;
 		for(int i = 1; i <= num1; i++) {
 			if (num1 % i == 0 && num2 % i == 0) {
 				for (int j = 0; j < i; j++) {
 					if (j < i) {
-					 j = i;
-					System.out.println("二つの数字の最大公約数は" + j + "です");
+					 max = i;
 					}
 				}
 			}
 		}
+		System.out.println("二つの数字の最大公約数は" + max + "です");
 	}
 }
