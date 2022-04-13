@@ -25,7 +25,7 @@ public class Ex1_A5 {
 		int i1 = num1 + num2 + num3;
 		System.out.println("合計" + i1 + "点");
 
-		double d1 = i1 / 3;
+		double d1 = (double)i1 / 3;
 		System.out.println("平均" + d1 + "点");
 
 		}

@@ -6,9 +6,15 @@ package exB;
 public class Ex6_B1 {
 	public static void main(String[] args) {
 		int height = 5;
-		int wide = 15;
-		int result = 
+		int width = 15;
+		int result = rectangle(height, width);
+		System.out.println("*");
 	}
-	public static int 
+	public static int rectangle(int height, int width);
+	for (int i = 1; i <= 3; i++) {
+		for (int j =1; j <= height; j++) {
+			System.out.print("*");
+		}
+
 	}
 }

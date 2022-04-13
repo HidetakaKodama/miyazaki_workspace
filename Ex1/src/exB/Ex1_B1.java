@@ -16,11 +16,6 @@ public class Ex1_B1 {
 		int i3 = num / 10 - b2;
 		int i4 = num % 10;
 
-		String str1 = "千の位は" + i1;
-		String str2 = "百の位は" + i2;
-		String str3 = "十の位は" + i3;
-		String str4 = "一の位は" + i4;
-
 		System.out.println("千の位は" + i1);
 		System.out.println("百の位は" + i2);
 		System.out.println("十の位は" + i3);
