@@ -5,16 +5,33 @@ package exB;
 
 public class Ex6_B1 {
 	public static void main(String[] args) {
-		int height = 5;
+		/*		int height = 5;
 		int width = 15;
+		String str = "*";
 		int result = rectangle(height, width);
-		System.out.println("*");
+		System.out.println(str);
 	}
-	public static int rectangle(int height, int width);
-	for (int i = 1; i <= 3; i++) {
-		for (int j =1; j <= height; j++) {
-			System.out.print("*");
+	public static int rectangle(int hight, int width);
+	for (int i = 0; i < 15; i++) {
+		for (int j =0; j < 5; j++) {
 		}
-
 	}
 }
+}
+
+*/
+		rectangle(7,10);
+	}
+
+	private static void rectangle(int h, int w) {
+		// TODO 自動生成されたメソッド・スタブ
+		for (int i = 0; i < h; i++) {
+			for (int j =0; j < w; j++) {
+				System.out.print("*");
+			}
+		System.out.println();
+		}
+	}
+	}
+
+

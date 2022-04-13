@@ -11,11 +11,10 @@ public class Ex5_B2 {
 		};
 		for (int i = 0; i < scores.length; i++) {
 			for (int j =0; j < scores[i].length; j++) {
-				System.out.print("スーパー1" + scores[i]);
-				System.out.print("スーパー2" + scores[i]);
-				System.out.print("スーパー3" + scores[i]);
 			}
-		System.out.println();
 		}
+		System.out.print("スーパー1" + scores[i]);
+		System.out.print("スーパー2" + scores[i]);
+		System.out.print("スーパー3" + scores[i]);
 	}
 }

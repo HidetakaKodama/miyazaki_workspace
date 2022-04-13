@@ -8,7 +8,7 @@ public class Ex2_B2 {
 		int num = s.nextInt();
 		System.out.println();
 		
-		if (num <= 12 && num >= 1 && num%2 == 0) {
+		if (num <= 12 && num >= 1 && num % 2 == 0) {
 			System.out.println("偶数月です");
 		}else if (num <= 12 && num >= 1 && num%2 == 1) {
 			System.out.println("奇数月です");
