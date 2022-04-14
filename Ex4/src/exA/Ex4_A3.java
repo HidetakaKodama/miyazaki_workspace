@@ -11,7 +11,7 @@ public class Ex4_A3 {
 			Scanner s = new Scanner(System.in);
 			String str = s.nextLine();
 				
-			if (str == "こんにちは") {
+			if (str.equals("こんにちは")) {
 				System.out.println(str);
 						break;
 			} else {

@@ -12,7 +12,7 @@ public class Ex6_B5 {
 	public static int add(int[] num) {
 		int sum = 0;
 		for (int i = 0; i < num.length; i++) {
-		sum += num[i];
+		sum = sum + num[i];
 		}
 		return sum;
 	}
