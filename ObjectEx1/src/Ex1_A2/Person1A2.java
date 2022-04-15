@@ -1,10 +1,12 @@
-package Ex1_A1;
+package Ex1_A2;
 
-public class Person1A1 {
-	
+public class Person1A2 {
 	String name;
 	int age;
-	
+	Person1A2(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
 	void introduce() {
 		System.out.println("私は" + name + "です");
 		System.out.println("年齢は" + age + "歳です");
@@ -13,11 +15,4 @@ public class Person1A1 {
 		age = age + years;
 		System.out.println("【" + years + "年後】");
 	}
-	void alcohol() {
-		if (age >= 20) {
-			System.out.println("飲酒できる年齢です");
-		} else if (age < 20) {
-			System.out.println("まだ飲酒できる年齢ではありません");
-		}
-}
 }

@@ -8,7 +8,7 @@ public class Person1A1Main {
 		per.age = 15;
 		
 		per.introduce();
-		per.getOlder();
+		per.getOlder(3);
 		per.introduce();
 		per.alcohol();
 	}
