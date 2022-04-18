@@ -1,5 +1,8 @@
 package Ex1_A5;
 
+// オブジェクト指向1-A5
+// コンストラクタのオーバーロード
+
 public class User {
 	String name;
 	int id;
