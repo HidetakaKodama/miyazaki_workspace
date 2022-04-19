@@ -1,10 +1,10 @@
-package Ex2_A2;
+package e4_19;
 
 // 継承
 
-public class SuperPetMain {
+public class SuperSampleMain {
 	public static void main(String[] args) {
-		SubPet sp = new SubPet();
+		SubSample sp = new SubSample();
 		sp.showPet1();
 		sp.showPet2();
 		sp.showPets();
