@@ -1,6 +1,10 @@
 package ex3_A1.pack1;
 
-// パッケージの利用
+// 【パッケージの利用】
+// ・Discount MainパッケージがDiscountパッケージを利用する
+// ・商品と値段を表示する
+// ・cutだけ値段を下げ、メッセージを表示する
+
 
 public class Discount {
 	private String product;
@@ -22,7 +26,7 @@ public class Discount {
 		System.out.println("値段は" + price + "円です。");
 	}
 	public void cutIn(int cut) {
-		price = price - cut;
+		price -= cut;
 		System.out.println("決算セールで" + cut + "円値引きされます。");
 	}
 }
