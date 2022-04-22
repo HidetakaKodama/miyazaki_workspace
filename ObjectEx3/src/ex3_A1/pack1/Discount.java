@@ -26,7 +26,7 @@ public class Discount {
 		System.out.println("値段は" + price + "円です。");
 	}
 	public void cutIn(int cut) {
-		price -= cut;
+		price = price - cut;
 		System.out.println("決算セールで" + cut + "円値引きされます。");
 	}
 }
